@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bike.pb.cc" />
+    <ClCompile Include="BusProcessor.cpp" />
+    <ClCompile Include="DispatchMsgService.cpp" />
+    <ClCompile Include="ievent.cpp" />
+    <ClCompile Include="events_def.cpp" />
+    <ClCompile Include="eventtype.cpp" />
+    <ClCompile Include="iniconfig.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NetworkInterface.cpp" />
+    <ClCompile Include="sqlconnection.cpp" />
+    <ClCompile Include="user_event_handler.cpp" />
+    <ClCompile Include="user_service.cpp" />
+    <ClCompile Include="threadpool\thread_pool.cpp">
+      <Filter>threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\thread_mutex.cpp">
+      <Filter>threadpool</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool\thread_cond.cpp">
+      <Filter>threadpool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bike.pb.h" />
+    <ClInclude Include="BusProcessor.h" />
+    <ClInclude Include="configdef.h" />
+    <ClInclude Include="DispatchMsgService.h" />
+    <ClInclude Include="ievent.h" />
+    <ClInclude Include="events_def.h" />
+    <ClInclude Include="eventtype.h" />
+    <ClInclude Include="glo_def.h" />
+    <ClInclude Include="iEventHandler.h" />
+    <ClInclude Include="iniconfig.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="NetworkInterface.h" />
+    <ClInclude Include="sqlconnection.h" />
+    <ClInclude Include="SqlTables.h" />
+    <ClInclude Include="user_event_handler.h" />
+    <ClInclude Include="user_service.h" />
+    <ClInclude Include="threadpool\thread_pool.h">
+      <Filter>threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\thread.h">
+      <Filter>threadpool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="threadpool">
+      <UniqueIdentifier>{6c65df57-51da-440d-a6eb-a85ac0e49015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
